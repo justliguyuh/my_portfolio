@@ -71,7 +71,7 @@ body {
 }
 
 .project-tile {
-    margin: 0 100px;
+    margin: 0 200px;
     text-decoration: none;
     display: flex;
     flex-direction: row;
