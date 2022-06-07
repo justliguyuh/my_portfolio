@@ -1,14 +1,14 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Helvetica, sans-serif;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(27, 27, 27);
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
 }
 
 #navbar {
@@ -21,178 +21,178 @@ body {
 }
 
 #nav-bar {
-    position: relative;
-    display: flex;
-    gap: 40px;
-    margin: 20px;
+  position: relative;
+  display: flex;
+  gap: 40px;
+  margin: 20px;
 }
 
 #nav-bar a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 #welcome-section {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
 #welcome-section h1 {
-    font-size: 50px;
-    padding: 10px
+  font-size: 50px;
+  padding: 10px;
 }
 
 #welcome-section p {
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 100;
-    color: rgb(179, 60, 60);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(179, 60, 60);
 }
 
-#projects  {
-    background-color: rgb(66, 66, 130);
-    color: white;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 200px;
+#projects {
+  background-color: rgb(66, 66, 130);
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 200px;
 }
 
 #projects h2 {
-    font-size: 35px;
-    padding-bottom: 45px;
-    text-decoration: underline;
-    text-underline-offset: 0.5rem;
+  font-size: 35px;
+  padding-bottom: 45px;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
 .project-tile {
-    margin: 0 200px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 4px;
-    gap: 30px;
+  margin: 0 200px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 33.3333%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  gap: 30px 80px;
 }
 
-.project-tile img{
-    width: 350px;
-    height: 300px;
-    object-fit: cover;
-    margin-top: 8px;
-    margin-bottom: 0;
-    padding: 0 4px;
+.project-tile img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding: 0 4px;
 }
 
 .project-tile a {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 0;
 }
 
 .project-tile p {
-    background-color: gray;
-    margin: 0 3.5px;
-    padding: 20px;
+  background-color: gray;
+  margin: 0 3.5px;
+  padding: 20px;
 }
 
 .show-all {
-    position: relative;
-    top: 80px;
+  position: relative;
+  top: 80px;
 }
 
 .show-all button {
-    color: white;
-    background-color: rgb(27, 27, 27);
-    padding: 10px 20px;
-    font-size: 20px;
-    border: none; 
+  color: white;
+  background-color: rgb(27, 27, 27);
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
 }
 
 .show-all button:hover {
-    background-color:rgb(179, 60, 60);
+  background-color: rgb(179, 60, 60);
 }
 
 #contact {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    color: white;
-    gap: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
 }
 
 #my-contacts {
-    margin-bottom: 230px;
-    display: flex;
-    gap: 50px;
+  margin-bottom: 230px;
+  display: flex;
+  gap: 50px;
 }
 
 #contact h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 #contact #contact-caption {
-    font-style: italic;
+  font-style: italic;
 }
 
 #contact hr {
-    width: 100%;
-    height: 2px;
-    border: 0;
-    color: rgb(179, 60, 60);
-    background-color: rgb(179, 60, 60);
-    margin-bottom: 30px;
+  width: 100%;
+  height: 2px;
+  border: 0;
+  color: rgb(179, 60, 60);
+  background-color: rgb(179, 60, 60);
+  margin-bottom: 30px;
 }
 
 #my-contacts > a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    display: flex;
-    gap: 5px;
-    padding-top: 50px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  gap: 5px;
+  padding-top: 50px;
 }
 
 footer {
-    margin-bottom: 50px;
-    display: flex;
-    gap: 100px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-content: flex-end;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 100px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
 }
 
-
 @media (max-width: 600) {
-    .project-title img {
-        width: 50%;
-    }
+  .project-title img {
+    width: 50%;
+  }
 
-    .project-title p {
-        width: 50%;
-    }
+  .project-title p {
+    width: 50%;
+  }
 }
 
 @media (max-width: 400px) {
-    .project-title img {
-        width: 100%;
-    }
+  .project-title img {
+    width: 100%;
+  }
 
-    .project-title p {
-        width: 100%;
-    }
+  .project-title p {
+    width: 100%;
+  }
 }
