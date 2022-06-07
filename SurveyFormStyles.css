@@ -1,0 +1,70 @@
+h1,
+p {
+    text-align: center;
+}
+
+p[id="description"] {
+    font-style: italic;
+}
+
+body {
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    background-color: #6363a8;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+form {
+    background-color: rgb(20, 20, 100);
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+    width: 60vw;
+    padding-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+fieldset {
+    margin: 0 auto;
+    border: 0;
+    padding: 2rem;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 88%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color: #1c974f;
+    border-color: #1c974f;
+    ;
+    min-width: 380px;
+    color: #f5f6f7;
+}
+
+input[name="recommend-answer"],
+input[type="checkbox"] {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+textarea {
+    font-family: Calibri;
+}

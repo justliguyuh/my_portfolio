@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    text-align: justify;
+    margin-left: 25%;
+    position: absolute;
+}
+
+#navbar {
+    left: 18px;
+    align-content: 0 0;
+    margin: 0;
+    padding-top: 0;
+    border: 2px solid;
+    border-color: gray;
+    display: block;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    text-align: left;
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    width: auto;
+    margin: 10px;
+    border: 1px solid;
+    border-color: gray;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+
+@media(max-height: 767px) {
+    #navbar {
+        height: 767px;
+    }
+}
+
+header {
+    font-style: bold;
+    font-size: 25px;
+}
+
+p,
+ul,
+div {
+    padding-left: 15px;
+    font-style: normal;
+    font-size: 15px;
+}
+
+div {
+    background-color: azure;
+    border-radius: 5px;
+}
