@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: rgb(66, 66, 130);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding: 1em 0;
+    background-color: rgb(27, 27, 27);
+    color: rgb(243, 239, 239);
+    font-size: 3em;
+    font-family: Roboto, sans-serif;
+}
+section {
+    margin: 2em 0;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+section a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#all p:hover {
+    background-color: rgb(247, 236, 238);
+    color: black;
+}
+
+section img{
+    width: 350px;
+    height: 300px;
+}
+
+#all p {
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+}
+
+@media (max-width: 800px) {
+    section img{
+        width: 600px;
+        height: 500px;
+    }
+}
